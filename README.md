@@ -68,8 +68,6 @@ Got ideas or found a bug? We appreciate your contributions! Here's how you can g
 
 - **Spread the Word:** If you find this library helpful, consider sharing it with others or giving it a star on GitHub.
 
----
-
 ## 📄 License
 
 Licensed under the MIT License.
