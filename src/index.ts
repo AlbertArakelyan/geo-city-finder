@@ -1,1 +1,1 @@
-export { default as geoCityFinder } from './getCoordinates';
+export { default as getCoordinates } from './getCoordinates';

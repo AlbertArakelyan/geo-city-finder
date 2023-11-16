@@ -33,7 +33,7 @@ const deg2rad = (deg: number) => deg * (Math.PI / 180);
 
 
 // Main logic
-export default function getCoordinates(coordinates: ILocation): Promise<boolean | undefined> {
+function getCoordinates(coordinates: ILocation): Promise<boolean | undefined> {
   return new Promise((resolve) => {
     if (!navigator.geolocation) {
       console.log('Geolocation is not supported by this browser.');
@@ -54,3 +54,5 @@ export default function getCoordinates(coordinates: ILocation): Promise<boolean 
     });
   });
 }
+
+export default getCoordinates;
