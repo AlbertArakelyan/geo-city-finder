@@ -54,7 +54,7 @@ Got ideas or found a bug? We appreciate your contributions! Here's how you can g
     - Create a new branch for your feature or bug fix.
     - Make your changes and submit a pull request.
 
-  Please ensure that your PR adheres to the project's coding conventions and includes relevant tests.
+[//]: # (  Please ensure that your PR adheres to the project's coding conventions and includes relevant tests.)
 
 - **Spread the Word:** If you find this library helpful, consider sharing it with others or giving it a star on GitHub.
 
