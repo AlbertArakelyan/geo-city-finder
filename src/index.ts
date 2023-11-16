@@ -1,1 +1,1 @@
-export { default as geoCityFinder } from './getCoordinates.ts';
+export { default as geoCityFinder } from './getCoordinates';
