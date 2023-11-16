@@ -36,7 +36,7 @@ yarn add geo-city-finder
 ## 💡 Usage
 
 ```js
-import geoCityFinder from 'geo-city-finder';
+import { getCoordinatesMatch } from 'geo-city-finder';
 
 // Find if is user from current city
 const cityCoordinates = {
@@ -45,7 +45,7 @@ const cityCoordinates = {
   longitude: 44.5152,
 };
 
-geoCityFinder(myCityCoordinates).then((result) => {
+getCoordinatesMatch(cityCoordinates).then((result) => {
   // Compares user ccordinates with city coordinates...
   console.log(result); // true or false
 });
