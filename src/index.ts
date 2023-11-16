@@ -1,5 +1,5 @@
 // Types
-type Location = {
+interface ILocation {
   accuracy: number;
   latitude: number;
   longitude: number;
@@ -9,7 +9,7 @@ type Location = {
 const accuracyThreshold = 2546.076925492267; // or 500
 
 // Helpers
-const isSameLocation = (coord1: Location, coord2: Location, accuracyThreshold: number) => {
+const isSameLocation = (coord1: ILocation, coord2: ILocation, accuracyThreshold: number) => {
   const distance = getDistance(coord1.latitude, coord1.longitude, coord2.latitude, coord2.longitude);
   return distance <= accuracyThreshold;
 };
@@ -33,7 +33,7 @@ const deg2rad = (deg: number) => deg * (Math.PI / 180);
 
 
 // Main logic
-export default function getCoordinates(coordinates: Location): Promise<boolean | undefined> {
+export default function getCoordinates(coordinates: ILocation): Promise<boolean | undefined> {
   return new Promise((resolve) => {
     if (!navigator.geolocation) {
       console.log('Geolocation is not supported by this browser.');
