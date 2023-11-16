@@ -1,1 +1,1 @@
-export { default as getCoordinates } from './getCoordinates';
+export { default as getCoordinatesMatch } from './getCoordinatesMatch';

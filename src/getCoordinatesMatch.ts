@@ -31,14 +31,14 @@ const getDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => 
 
 const deg2rad = (deg: number) => deg * (Math.PI / 180);
 
-
 // Main logic
-function getCoordinates(coordinates: ILocation): Promise<boolean | undefined> {
+function getCoordinatesMatch(coordinates: ILocation): Promise<boolean | undefined> {
   return new Promise((resolve) => {
     if (!navigator.geolocation) {
       console.log('Geolocation is not supported by this browser.');
       resolve(undefined);
     }
+
     navigator.geolocation.getCurrentPosition((position) => {
       const { latitude, longitude, accuracy } = position.coords;
       const currentCoordinates = {
@@ -55,4 +55,4 @@ function getCoordinates(coordinates: ILocation): Promise<boolean | undefined> {
   });
 }
 
-export default getCoordinates;
+export default getCoordinatesMatch;
