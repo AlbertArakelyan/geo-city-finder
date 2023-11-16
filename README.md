@@ -1,4 +1,4 @@
-# geo-city-finder 🌐
+# Geo City Finder 🌐
 
 > A lightweight JavaScript library for finding cities based on geographical coordinates with high accuracy.
 
@@ -12,14 +12,23 @@
 
 ## 🚀 Features
 
-- Accurately find cities based on geographical coordinates.
+[//]: # (- Accurately detect if city matches provided geographical coordinates.)
+- Accurately determine if the city matches the given geographical coordinates.
 
 ---
 
 ## 📦 Installation
 
+Add `Geo City Fincer` to your project with npm:
+
 ```bash
 npm install geo-city-finder
+```
+
+Or use yarn:
+
+```bash
+yarn add geo-city-finder
 ```
 
 ---
@@ -66,7 +75,7 @@ Licensed under the MIT License.
 
 ---
 
-Made with ❤️ by Albert Arakelyan
+Made with ❤️ by [Albert Arakelyan](https://github.com/AlbertArakelyan)
 
 * [LinkedIn Profile](https://www.linkedin.com/in/albert-arakelyan/)
 * [GitHub Profile](https://github.com/ALbert2504)

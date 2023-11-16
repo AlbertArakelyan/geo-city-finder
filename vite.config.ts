@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.ts',
-      name: 'GeoCityFinder',
+      name: 'geoCityFinder',
       formats: ['es', 'umd'],
       fileName: (format) => `geo-city-finder.${format}.js`
     },
