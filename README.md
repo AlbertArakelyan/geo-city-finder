@@ -7,8 +7,6 @@ A lightweight JavaScript library for finding cities based on geographical coordi
 - [🚀 Features](#-features)
 - [📦 Installation](#-installation)
 - [💡 Usage](#-usage)
-- [📚 Documentation](#-documentation)
-- [🔍 Examples](#-examples)
 - [🙏 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -29,17 +27,19 @@ npm install geo-city-finder
 ## 💡 Usage
 
 ```js
-const geoCityFinder = require('geo-city-finder');
+import geoCityFinder from 'geo-city-finder';
 
-// Use the library to find cities based on coordinates
-// Add usage examples here...
+// Find if is user from current city
+const myCityCoordinates = {
+  accuracy: 2546.076925492267,
+  latitude: 40.1872,
+  longitude: 44.5152,
+};
+
+geoCityFinder(myCityCoordinates).then((result) => {
+  console.log(result);
+});
 ```
-
----
-
-## 📚 Documentation
-
-For detailed documentation and API reference, please refer to the documentation.
 
 ---
 
