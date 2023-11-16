@@ -1,4 +1,4 @@
-# geo-city-finder
+# geo-city-finder 🌐
 
 > A lightweight JavaScript library for finding cities based on geographical coordinates with high accuracy.
 
