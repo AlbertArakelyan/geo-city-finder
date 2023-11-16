@@ -2,7 +2,7 @@
   "name": "geo-city-finder",
   "description": "A lightweight JavaScript library for finding cities based on geographical coordinates with high accuracy.",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.1-experimental.1",
   "type": "module",
   "main": "./dist/geo-city-finder.umd.js",
   "module": "./dist/geo-city-finder.es.js",
