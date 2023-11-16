@@ -68,3 +68,6 @@ Licensed under the MIT License.
 
 Made with ❤️ by Albert Arakelyan
 
+* [LinkedIn Profile](https://www.linkedin.com/in/albert-arakelyan/)
+* [GitHub Profile](https://github.com/ALbert2504)
+* [Portfolio Website](https://albertarakelyan.vercel.app/)
