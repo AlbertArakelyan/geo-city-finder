@@ -39,13 +39,14 @@ yarn add geo-city-finder
 import geoCityFinder from 'geo-city-finder';
 
 // Find if is user from current city
-const myCityCoordinates = {
+const cityCoordinates = {
   accuracy: 2546.076925492267,
   latitude: 40.1872,
   longitude: 44.5152,
 };
 
 geoCityFinder(myCityCoordinates).then((result) => {
+  // Compares user ccordinates with city coordinates...
   console.log(result); // true or false
 });
 ```
