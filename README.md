@@ -37,7 +37,7 @@ const myCityCoordinates = {
 };
 
 geoCityFinder(myCityCoordinates).then((result) => {
-  console.log(result);
+  console.log(result); // true or false
 });
 ```
 
