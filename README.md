@@ -19,7 +19,7 @@
 
 ## 📦 Installation
 
-Add `Geo City Fincer` to your project with npm:
+Add `Geo City Finder` to your project with npm:
 
 ```bash
 npm install geo-city-finder
