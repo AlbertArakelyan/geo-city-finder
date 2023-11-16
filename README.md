@@ -50,9 +50,9 @@ Got ideas or found a bug? We appreciate your contributions! Here's how you can g
 - **Open an Issue:** If you have a new feature idea, want to report a bug, or have a general question, [open an issue](https://github.com/AlbertArakelyan/geo-city-finder/issues).
 
 - **Send a Pull Request (PR):** Contributions are welcome! If you'd like to contribute code, follow these steps:
-    1. Fork the repository.
-    2. Create a new branch for your feature or bug fix.
-    3. Make your changes and submit a pull request.
+    - Fork the repository.
+    - Create a new branch for your feature or bug fix.
+    - Make your changes and submit a pull request.
 
   Please ensure that your PR adheres to the project's coding conventions and includes relevant tests.
 
