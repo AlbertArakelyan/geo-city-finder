@@ -76,6 +76,14 @@ Licensed under the MIT License.
 
 ---
 
+## 🌱 Future Plans
+
+- create a playground
+- prepare a built-in city list
+- improve code, add tests, all docstrings etc.
+
+---
+
 Made with ❤️ by [Albert Arakelyan](https://github.com/AlbertArakelyan)
 
 * [LinkedIn Profile](https://www.linkedin.com/in/albert-arakelyan/)
