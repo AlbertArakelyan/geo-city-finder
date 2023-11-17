@@ -10,6 +10,8 @@
 - [🙏 Contributing](#-contributing)
 - [📄 License](#-license)
 
+---
+
 ## 🚀 Features
 
 [//]: # (- Accurately detect if city matches provided geographical coordinates.)
