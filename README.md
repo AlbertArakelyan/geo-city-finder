@@ -48,7 +48,7 @@ const cityCoordinates = {
 };
 
 getCoordinatesMatch(cityCoordinates).then((result) => {
-  // Compares user ccordinates with city coordinates...
+  // Compares user coordinates with city coordinates...
   console.log(result); // true or false
 });
 ```
