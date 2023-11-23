@@ -1,6 +1,6 @@
 # Geo City Finder 🌐
 
-> A lightweight JavaScript library for finding cities based on geographical coordinates with high accuracy.
+> A lightweight JavaScript library for identifying cities based on geographical coordinates and determining if provided coordinates match those of a city with high accuracy.
 
 ## Table of Contents
 
