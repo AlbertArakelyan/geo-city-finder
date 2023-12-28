@@ -18,16 +18,18 @@ const accuracyThreshold = 2546.076925492267; // or 500
 
 // Helpers
 /**
- * Determines whether two locations are the same based on their coordinates and an accuracy threshold.
+ * Determines if two locations are the same based on their coordinates and an accuracy threshold.
  *
- * @param {ILocation} coord1 - The first location coordinate.
- * @param {ILocation} coord2 - The second location coordinate.
- * @param {number} accuracyThreshold - The maximum distance allowed between the two coordinates to consider them the same.
- * @return {boolean} Returns true if the two locations are the same, false otherwise.
+ * @param {ILocation} coord1 - The first location coordinates.
+ * @param {ILocation} coord2 - The second location coordinates.
+ * @param {number} accuracyThreshold - The threshold used to determine if the locations are the same.
+ * @return {boolean} Returns true if the locations are the same, otherwise false.
  */
 const isSameLocation = (coord1: ILocation, coord2: ILocation, accuracyThreshold: number) => {
   const distance = getDistance(coord1.latitude, coord1.longitude, coord2.latitude, coord2.longitude);
-  return distance <= accuracyThreshold;
+  const threshold = coord1.accuracy + coord2.accuracy + accuracyThreshold;
+
+  return distance <= threshold;
 };
 
 /**
@@ -41,6 +43,7 @@ const isSameLocation = (coord1: ILocation, coord2: ILocation, accuracyThreshold:
  */
 const getDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
   const R = 6371; // Radius of the Earth in kilometers
+
   const dLat = deg2rad(lat2 - lat1);
   const dLon = deg2rad(lon2 - lon1);
 
